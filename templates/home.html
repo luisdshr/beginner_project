@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Programming Languages</h1>
+
+<p>This site provides a brief overview of several popular programming languages</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4">{% include "pythonCard.html" %}</div>
+    <div class="col-4">{% include "fsharpCard.html" %}</div>
+    <div class="col-4">{% include "racketCard.html" %}</div>
+  </div>
+</div>
+
+{% endblock content %}
